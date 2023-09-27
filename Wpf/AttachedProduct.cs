@@ -8,7 +8,7 @@ namespace Wpf
 {
     internal class AttachedProduct
     {
-        public int MainProductId { get; set; }
-        public int AttachedProductID { get; set; }
+        public int MainProductId { get; set; } = 0!;
+        public int AttachedProductID { get; set; } = 0!;
     }
 }

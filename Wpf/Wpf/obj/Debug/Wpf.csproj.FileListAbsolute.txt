@@ -1,0 +1,7 @@
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Wpf.csproj.AssemblyReference.cache
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Wpf.csproj.SuggestedBindingRedirects.cache
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\MainWindow.g.cs
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\App.g.cs
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Wpf_Content.g.cs
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Wpf_MarkupCompile.cache
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Wpf_MarkupCompile.lref

@@ -13,28 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf
+namespace Wpf.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для PageMain.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PageMain : Page
     {
-        public MainWindow()
+        public PageMain()
         {
             InitializeComponent();
-            ConnectOdb.conObj = new St2_Smirnov_Salon1Entities();
-            FrameObj.frameMain = frmMain;
         }
-
-        //private void btnBack_Click(object sender, RoutedEventArgs e)
-        //{
-
-        //}
-
-        //private void btnfaq_Click(object sender, RoutedEventArgs e)
-        //{
-
-        //}
     }
 }

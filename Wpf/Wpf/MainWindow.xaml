@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Админ-панель Салон Красоты" Height="700" Width="900">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="200*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Background="#FFE1E4FF" Orientation="Horizontal">
+            <Image Source=".//Resources/beauty_logo.png" Width="55" HorizontalAlignment="Left" Margin="10 0 0 0"/>
+            <Button x:Name="btnBack" Click="btnBack_Click"
+                    Width="150" Height="30" FontSize="17"
+                    Foreground="White" Background="#ffff4a6d"
+                    Margin="500 0 0 0" FontFamily="Tahoma">Назад</Button>
+            <Button x:Name="btnfaq" Click="btnfaq_Click"
+                    Width="150" Height="30" FontSize="17"
+                    Foreground="White" Background="#ffff4a6d"
+                    Margin="5 0 0 0" FontFamily="Tahoma">FAQ</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            <Image Source=".//Resources/beauty_logo.png" Opacity=".1" Width="490"/>
+        </StackPanel>
+        <Frame x:Name="frmMain" Grid.Row="1" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

@@ -13,11 +13,11 @@
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Background="#FFE1E4FF" Orientation="Horizontal">
             <Image Source=".//Resources/beauty_logo.png" Width="55" HorizontalAlignment="Left" Margin="10 0 0 0"/>
-            <Button x:Name="btnBack" Click="btnBack_Click"
+            <Button x:Name="btnBack" 
                     Width="150" Height="30" FontSize="17"
                     Foreground="White" Background="#ffff4a6d"
                     Margin="500 0 0 0" FontFamily="Tahoma">Назад</Button>
-            <Button x:Name="btnfaq" Click="btnfaq_Click"
+            <Button x:Name="btnfaq" 
                     Width="150" Height="30" FontSize="17"
                     Foreground="White" Background="#ffff4a6d"
                     Margin="5 0 0 0" FontFamily="Tahoma">FAQ</Button>
@@ -25,6 +25,6 @@
         <StackPanel Grid.Row="1" VerticalAlignment="Center">
             <Image Source=".//Resources/beauty_logo.png" Opacity=".1" Width="490"/>
         </StackPanel>
-        <Frame x:Name="frmMain" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="FrmMain" Grid.Row="1" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

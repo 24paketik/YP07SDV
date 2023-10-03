@@ -13,14 +13,14 @@
                     VerticalAlignment="Center"
                     Orientation="Horizontal">
             <StackPanel Orientation="Vertical">
-                <Button/>
-                <Button/>
-                <Button/>
+                <Button Content="Услуги" Name="btnService" Style="{StaticResource mainBtm}"/>
+                <Button Content="Клиенты" Name="btnClient" Style="{StaticResource mainBtm}"/>
+                <Button Content="Товары" Name="btnProduct" Style="{StaticResource mainBtm}"/>
             </StackPanel>
             <StackPanel Orientation="Vertical">
-                <Button/>
-                <Button/>
-                <Button/>
+                <Button Content="Добавить товар" Name="btnAddProduct" Style="{StaticResource mainBtm}"/>
+                <Button Content="Сотрудники" Name="btnStuff" Style="{StaticResource mainBtm}"/>
+                <Button Content="Компания" Name="btnCompany" Style="{StaticResource mainBtm}"/>
             </StackPanel>
         </StackPanel>
     </Grid>

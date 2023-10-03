@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Wpf.Pages;
 
 namespace Wpf
 {
@@ -24,7 +25,9 @@ namespace Wpf
         {
             InitializeComponent();
             ConnectOdb.conObj = new St2_Smirnov_Salon1Entities();
-            FrameObj.frameMain = frmMain;
+            FrameObj.frameMain = FrmMain;
+
+            FrmMain.Navigate(new PageMain());
         }
 
         //private void btnBack_Click(object sender, RoutedEventArgs e)

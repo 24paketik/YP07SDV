@@ -26,3 +26,5 @@ C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Wpf.exe
 C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Wpf.pdb
 C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Pages\PageAddProduct.g.cs
 C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Pages\PageAddProduct.baml
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Pages\PageProduct.g.cs
+C:\SDV\YP07SDV\YP07SDV\Wpf\Wpf\obj\Debug\Pages\PageProduct.baml
